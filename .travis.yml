@@ -6,3 +6,5 @@ dotnet: 2.1
 sudo: false
 install:
   - dotnet restore
+  - dotnet build
+  
