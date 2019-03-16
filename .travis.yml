@@ -1,0 +1,8 @@
+language: csharp
+solution: BACK.sln
+mono: none
+dist: xenial
+dotnet: 2.1
+sudo: false
+install:
+  - dotnet restore
