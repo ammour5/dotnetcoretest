@@ -1,10 +1,10 @@
 language: csharp
-solution: BACK.sln
+solution: backend/backend.sln
 mono: none
 dist: xenial
-dotnet: 2.1
+dotnet: 2.2
 sudo: false
 script:
-  - dotnet restore
-  - dotnet build
+  - dotnet restore backend/backend.sln
+  - dotnet build backend/backend.sln
   
