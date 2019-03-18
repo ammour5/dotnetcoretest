@@ -8,16 +8,15 @@ namespace backend.Tests.Repository
     {
         private readonly IBankRepository _bankRepository;
 
-        public RepositoryShould(IBankRepository bankRepository)
+        public RepositoryShould()
         {
-            _bankRepository = bankRepository;
+            // add inmemory db context
+            _bankRepository = new BankRepository(null);
         }
 
         [Fact]
         public void RepositoryNotNull()
         {
- 
-
             Assert.NotNull(_bankRepository);
         }
     }
