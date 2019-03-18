@@ -1,42 +1,24 @@
-﻿<Properties StartupConfiguration="{02127C57-954A-459D-BA20-74CD5BA1A76A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+﻿<Properties StartupConfiguration="{0D6DE126-FC3A-4A59-840A-42455A8E8CE9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="backend.Tests/UnitTest1.cs">
     <Files>
-      <File FileName="Controllers/ValuesController.cs" Line="10" Column="1" />
-      <File FileName="Startup.cs" Line="35" Column="13" />
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Controllers/AuthController.cs" Line="22" Column="14" />
-      <File FileName="appsettings.json" Line="1" Column="1" />
-      <File FileName=".gitignore" Line="1" Column="1" />
-      <File FileName="appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="Controllers/BankAccountController.cs" Line="31" Column="55" />
-      <File FileName="Data/Models/CredentialModel.cs" Line="14" Column="9" />
-      <File FileName="Data/Entities/BankAccount.cs" Line="10" Column="9" />
-      <File FileName="Data/Entities/BankAccountTransaction.cs" Line="10" Column="9" />
-      <File FileName="Data/Entities/User.cs" Line="8" Column="9" />
-      <File FileName="Data/Repository/IBankRepository.cs" Line="15" Column="1" />
-      <File FileName="Data/Repository/BankRepository.cs" Line="12" Column="9" />
+      <File FileName="backend.Tests/UnitTest1.cs" Line="2" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="backend" expanded="True">
-            <Node name="backend" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="Entities" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="Repository" expanded="True" />
-              </Node>
-              <Node name="Filters" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="backend" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="backend" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.test.backend.Tests FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
