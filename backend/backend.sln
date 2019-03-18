@@ -20,7 +20,4 @@ Global
 		{0D6DE126-FC3A-4A59-840A-42455A8E8CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6DE126-FC3A-4A59-840A-42455A8E8CE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0D6DE126-FC3A-4A59-840A-42455A8E8CE9} = {C35ED154-B342-4351-919D-459D4BDEDD0D}
-	EndGlobalSection
 EndGlobal

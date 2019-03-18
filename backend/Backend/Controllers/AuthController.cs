@@ -13,8 +13,8 @@ namespace backend.Controllers
     [ValidateModel]
     public class AuthController : ControllerBase
     {
-       [HttpPost("token")]
-       public IActionResult CreateToken([FromBody] CredentialModel model)
+        [HttpPost("token")]
+        public IActionResult CreateToken([FromBody] CredentialModel model)
         {
             // if (!ModelState.IsValid) return BadRequest(ModelState);
             // Rmplaced by [ValidateModel]
@@ -29,21 +29,22 @@ namespace backend.Controllers
 
             return BadRequest("Failed to generate token");
         }
-    }
 
 
-    [HttpPost("login")]
-    public Task<IActionResult> Login([FromBody]CredentialModel model)
-    {
-        try
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody]CredentialModel model)
         {
+            try
+            {
 
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return BadRequest("Faile to login");
         }
-        catch (Exception ex)
-        {
-
-        }
-
-        return BadRequest("Faile to login");
     }
 }

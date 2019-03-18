@@ -7,4 +7,5 @@ sudo: false
 script:
   - dotnet restore backend/backend.sln
   - dotnet build backend/backend.sln
+  - dotnet test backend/backend.Tests/backend.Tests.csproj
   

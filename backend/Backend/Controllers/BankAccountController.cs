@@ -28,7 +28,8 @@ namespace backend.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var account = _repository.CreateAccount();
+            // var account = _repository.CreateAccount();
+            return Ok("");
         }
     }
 }
