@@ -17,7 +17,7 @@ namespace backend.Data.Context
         }
 
         public DbSet<BankAccount> BankAccounts { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<BankAccountTransaction> BankAccountTransactions { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

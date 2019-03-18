@@ -7,6 +7,8 @@ namespace backend.Data.Entities
         public DateTime Date { get; set; }
         public int BankAccountId { get; set; }
         public double Amount { get; set; }
+        public TransactionType TransactionType { get; set; }
+        public TransactionStatus Status { get; set; }
 
         public BankAccountTransaction()
         {

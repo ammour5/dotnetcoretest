@@ -19,6 +19,8 @@
     <Folder Include="Data\Entities\" />
     <Folder Include="Data\Repository\" />
     <Folder Include="Data\Context\" />
-    <Folder Include="Tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data\Entities\User.cs" />
   </ItemGroup>
 </Project>

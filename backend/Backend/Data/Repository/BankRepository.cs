@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using backend.Data.Context;
 using backend.Data.Entities;
 
@@ -14,17 +15,17 @@ namespace backend.Data.Repository
             _dbContext = dbContext;
         }
 
-        public void CreateAccount()
+        public Task<BankAccount> CreateAccount()
         {
             throw new NotImplementedException();
         }
 
-        public void MakeDeposit(int bankAccountId, double amount)
+        public Task<double> MakeDeposit(int bankAccountId, double amount)
         {
             throw new NotImplementedException();
         }
 
-        public void MakeWithdrawal(int bankAccountId, double amount)
+        public Task<double> MakeWithdrawal(int bankAccountId, double amount)
         {
             throw new NotImplementedException();
         }

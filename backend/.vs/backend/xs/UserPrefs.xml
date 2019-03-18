@@ -1,19 +1,36 @@
 ﻿<Properties StartupConfiguration="{0D6DE126-FC3A-4A59-840A-42455A8E8CE9}|Default">
   <MonoDevelop.Ide.ItemProperties.backend.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Backend/Controllers/BankAccountController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Backend/Data/Context/BankAccountContext.cs">
     <Files>
       <File FileName="backend.Tests/UnitTest1.cs" Line="16" Column="1" />
       <File FileName="Backend/Controllers/AuthController.cs" Line="36" Column="29" />
-      <File FileName="Backend/Controllers/BankAccountController.cs" Line="31" Column="14" />
+      <File FileName="Backend/Controllers/BankAccountController.cs" Line="32" Column="27" />
+      <File FileName="Backend/Data/Repository/BankRepository.cs" Line="8" Column="42" />
+      <File FileName="Backend/Data/Repository/IBankRepository.cs" Line="10" Column="41" />
+      <File FileName="Backend/Data/Entities/BankAccount.cs" Line="14" Column="9" />
+      <File FileName="Backend/Data/Models/CredentialModel.cs" Line="10" Column="10" />
+      <File FileName="Backend/Data/Entities/TransactionType.cs" Line="7" Column="19" />
+      <File FileName="backend.Tests/Repository/RepositoryShould.cs" Line="11" Column="1" />
+      <File FileName="Backend/Data/Entities/BankAccountTransaction.cs" Line="18" Column="1" />
+      <File FileName="Backend/Data/Entities/TransactionStatus.cs" Line="11" Column="1" />
+      <File FileName="Backend/Data/Context/BankAccountContext.cs" Line="20" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="backend" expanded="True">
             <Node name="backend" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ValuesController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Context" expanded="True">
+                  <Node name="BankAccountContext.cs" selected="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+                <Node name="Repository" expanded="True" />
               </Node>
+            </Node>
+            <Node name="backend.Tests" expanded="True">
+              <Node name="Repository" expanded="True" />
             </Node>
           </Node>
         </State>

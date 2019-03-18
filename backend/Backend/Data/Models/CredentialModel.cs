@@ -10,7 +10,7 @@ namespace backend.Data.Models
         }
 
         [Required]
-        public string UserName { get; set; }
+        public string UserEmail { get; set; }
 
         [Required]
         public string Password { get; set; }

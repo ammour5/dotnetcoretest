@@ -26,7 +26,6 @@ namespace backend.Controllers
             {
 
             }
-
             return BadRequest("Failed to generate token");
         }
 
