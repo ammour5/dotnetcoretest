@@ -1,18 +1,34 @@
 ﻿<Properties StartupConfiguration="{02127C57-954A-459D-BA20-74CD5BA1A76A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
-      <File FileName="Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ValuesController.cs" Line="10" Column="1" />
+      <File FileName="Startup.cs" Line="35" Column="13" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Controllers/AuthController.cs" Line="22" Column="14" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
       <File FileName=".gitignore" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Controllers/BankAccountController.cs" Line="31" Column="55" />
+      <File FileName="Data/Models/CredentialModel.cs" Line="14" Column="9" />
+      <File FileName="Data/Entities/BankAccount.cs" Line="10" Column="9" />
+      <File FileName="Data/Entities/BankAccountTransaction.cs" Line="10" Column="9" />
+      <File FileName="Data/Entities/User.cs" Line="8" Column="9" />
+      <File FileName="Data/Repository/IBankRepository.cs" Line="15" Column="1" />
+      <File FileName="Data/Repository/BankRepository.cs" Line="12" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="backend" expanded="True">
             <Node name="backend" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name=".gitignore" selected="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Repository" expanded="True" />
+              </Node>
+              <Node name="Filters" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +37,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.backend FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.backend PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
