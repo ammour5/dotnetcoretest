@@ -4,16 +4,32 @@ namespace backend.Data.Entities
     public class BankAccount
     {
         public int Id { get; set; }
-        public int UserId { get; set; }
-        public string UserFirstName { get; set; }
-        public string UserLastName { get; set; }
-        public string UserEmail { get; set; }
+
+        public int CustomerID { get; set; }
+
         public DateTime CreatedAt { get; set; }
-        public double Balance { get; set; }
 
+        public decimal Balance { get; set; }
 
-        public BankAccount()
+        public void Deposit(decimal amount)
         {
+            Balance += amount;
+        }
+
+        public bool Withdraw(decimal amount)
+        {
+            if (Balance >= amount)
+            {
+                Balance -= amount;
+                return true;
+            }
+            return false;
+        }
+
+        public BankAccount(int customerId, decimal initialDeposit = 0)
+        {
+            CustomerID = customerId;
+            Balance = initialDeposit;
         }
     }
 }

@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{0D6DE126-FC3A-4A59-840A-42455A8E8CE9}|Default">
   <MonoDevelop.Ide.ItemProperties.backend.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="backend.Tests/Repository/RepositoryShould.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Backend/Data/Entities/BankAccount.cs">
     <Files>
       <File FileName="Backend/Controllers/AuthController.cs" Line="47" Column="10" />
-      <File FileName="Backend/Controllers/BankAccountController.cs" Line="26" Column="9" />
+      <File FileName="Backend/Controllers/BankAccountController.cs" Line="26" Column="1" />
       <File FileName="Backend/Data/Repository/BankRepository.cs" Line="9" Column="18" />
       <File FileName="Backend/Data/Repository/IBankRepository.cs" Line="10" Column="41" />
-      <File FileName="Backend/Data/Entities/BankAccount.cs" Line="14" Column="9" />
+      <File FileName="Backend/Data/Entities/BankAccount.cs" Line="8" Column="1" />
       <File FileName="Backend/Data/Models/CredentialModel.cs" Line="10" Column="10" />
       <File FileName="Backend/Data/Entities/TransactionType.cs" Line="7" Column="19" />
-      <File FileName="backend.Tests/Repository/RepositoryShould.cs" Line="18" Column="10" />
+      <File FileName="backend.Tests/Repository/RepositoryShould.cs" Line="13" Column="39" />
       <File FileName="Backend/Data/Entities/BankAccountTransaction.cs" Line="18" Column="1" />
       <File FileName="Backend/Data/Entities/TransactionStatus.cs" Line="11" Column="1" />
       <File FileName="Backend/Data/Context/BankAccountContext.cs" Line="25" Column="48" />
+      <File FileName="Backend/Data/Entities/User.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,6 +23,9 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Context" expanded="True" />
+                <Node name="Entities" expanded="True">
+                  <Node name="BankAccount.cs" selected="True" />
+                </Node>
                 <Node name="Models" expanded="True" />
                 <Node name="Repository" expanded="True" />
               </Node>
@@ -31,11 +35,6 @@
               <Node name="Repository" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="backend" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

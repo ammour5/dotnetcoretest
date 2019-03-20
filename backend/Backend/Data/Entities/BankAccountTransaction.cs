@@ -6,12 +6,15 @@ namespace backend.Data.Entities
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public int BankAccountId { get; set; }
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
         public TransactionType TransactionType { get; set; }
-        public TransactionStatus Status { get; set; }
+        public TransactionStatus TransactionStatus { get; set; }
 
-        public BankAccountTransaction()
+        public BankAccountTransaction(decimal amount, TransactionType transactionType)
         {
+            Amount = amount;
+            TransactionType = transactionType;
+            TransactionStatus = TransactionStatus.PENDING;
         }
     }
 }

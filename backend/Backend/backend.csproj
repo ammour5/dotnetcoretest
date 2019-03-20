@@ -20,7 +20,4 @@
     <Folder Include="Data\Repository\" />
     <Folder Include="Data\Context\" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Data\Entities\User.cs" />
-  </ItemGroup>
 </Project>
