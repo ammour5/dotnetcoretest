@@ -7,9 +7,9 @@ namespace backend.Data.Entities
 
         public int CustomerID { get; set; }
 
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; private set; }
 
-        public decimal Balance { get; set; }
+        public decimal Balance { get; private set; }
 
         public void Deposit(decimal amount)
         {
